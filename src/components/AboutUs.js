@@ -1,7 +1,7 @@
 import React from "react"
 
 export default () => (
-  <section className="flex flex-col items-center py-32 relative" id="about-us">
+  <section className="flex flex-col items-center py-20 relative" id="about-us">
     <div
       className="absolute bg-primary-lite rounded-full"
       style={{

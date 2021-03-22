@@ -1,7 +1,7 @@
 import React from "react"
 
 export default () => (
-  <footer className="flex flex-col px-20 pt-10 pb-6">
+  <footer className="flex flex-col px-20 pt-10 pb-6 bg-primary-lite">
     <div className="flex">
       <div className="flex flex-col">
         <h3 className="font-bold mb-3">Contact us</h3>

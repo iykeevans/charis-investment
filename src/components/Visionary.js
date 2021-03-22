@@ -1,20 +1,18 @@
 import React from "react"
 
 export default () => (
-  <section className="py-32 px-24">
-    <h1 className="text-center text-3xl heading-font mb-8">Meet The CEO</h1>
+  <section className="py-20 px-24">
+    <h1 className="text-center text-3xl heading-font mb-10">Meet The CEO</h1>
 
     <div className="flex justify-center">
-      {/* <div
-        className="rounded"
-        style={{ width: "650px", height: "200px", border: "1px solid" }}
-      >
-        Image goes here
-      </div> */}
+      <div
+        className="rounded bg-secondary-lite"
+        style={{ width: "400px", height: "250px" }}
+      ></div>
 
-      <div className="text-center w-8/12">
-        {/* <h3 className="alt-font text-sm">C.E.O</h3>
-        <h2 className="text-xl font-bold mb-3">John Doe</h2> */}
+      <div className="w-8/12 ml-10">
+        <h3 className="alt-font text-sm mb-1">C.E.O</h3>
+        <h2 className="text-xl font-bold mb-3">AJISAFE ADEOYE</h2>
         <p className="leading-8">
           AJISAFE ADEOYE is a graduate of Computer Science from Obafemi Awolowo
           University. He is also the CEO of landmark concept. AJISAFE ADEOYE has

@@ -2,7 +2,7 @@ import React from "react"
 import image_quote from "../assets/images/home/quote.svg"
 
 export default () => (
-  <section className="py-32" id="testimonials">
+  <section className="py-20" id="testimonials">
     <div className="px-16">
       <img src={image_quote} alt="quote" />
 

@@ -32,7 +32,7 @@ const offerings = [
 ]
 
 export default () => (
-  <section className="grid grid-cols-12 gap-8 px-24 py-32" id="investment">
+  <section className="grid grid-cols-12 gap-8 px-24 py-20" id="investment">
     <h1 className="col-span-12 text-center text-3xl heading-font">
       Investment Plans
     </h1>
