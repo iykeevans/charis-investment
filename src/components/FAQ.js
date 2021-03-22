@@ -54,7 +54,7 @@ export default () => {
   }
 
   return (
-    <section className="py-32 flex flex-col items-center" id="faq">
+    <section className="py-20 flex flex-col items-center" id="faq">
       <h1 className="text-center text-3xl heading-font mb-5">
         Frequently Asked Questions And Answers
       </h1>

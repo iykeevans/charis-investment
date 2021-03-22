@@ -1,12 +1,16 @@
 import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
+import image_logo from "../assets/images/home/logo.png"
+
 export default () => (
   <header
     className="flex justify-between items-center px-16 absolute w-full"
     style={{ height: "80px", zIndex: 2 }}
   >
-    <div>Logo</div>
+    <div className="flex">
+      <img src={image_logo} alt="logo" style={{ height: 100 }} />
+    </div>
 
     <nav className="flex">
       <button className="p-6 text-sm" onClick={() => scrollTo("#home")}>
